@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type, Modality } from "@google/genai";
 import { Scene, ScriptAnalysisResult, CharacterProfile } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GENINI_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 export const generateCharacterProfile = async (
   scriptText: string,
